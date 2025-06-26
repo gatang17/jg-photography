@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
    <!-- CONTENEDOR DEL MENÚ -->
 <div class="menu_2 col-md-6 col-sm-12">
 
-  <a href="/index.html" class="nav-link">HOME</a>
+  <a href="index.html" class="nav-link">HOME</a>
 
   <!-- MENU CON SUBMENÚ -->
   <div class="dropdown">

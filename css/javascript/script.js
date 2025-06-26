@@ -118,16 +118,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   <!-- MENU CON SUBMENÚ -->
   <div class="dropdown">
-    <a href="/services.html" class="nav-link">SERVICES ▾</a>
+    <a href="services.html" class="nav-link">SERVICES ▾</a>
     <div class="dropdown-content">
-      <a href="/photography.html">Photography</a>
-      <a href="/graphic_design.html">Graphic Design</a>
-      <a href="/social_media.html">Social Media</a>
+      <a href="photography.html">Photography</a>
+      <a href="graphic_design.html">Graphic Design</a>
+      <a href="social_media.html">Social Media</a>
     </div>
   </div>
 
-  <a href="/about_us.html" class="nav-link">ABOUT US</a>
-  <a href="/contact.html" class="nav-link">CONTACT</a>
+  <a href="about_us.html" class="nav-link">ABOUT US</a>
+  <a href="contact.html" class="nav-link">CONTACT</a>
 
 </div>
  `;

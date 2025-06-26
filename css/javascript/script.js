@@ -13,12 +13,12 @@ document.head.innerHTML += `
         crossorigin="anonymous">
 
   <!-- Tus estilos -->
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 `;
 
 // 2. Insertar scripts con createElement para que se ejecuten bien:
 const script = document.createElement('script');
-script.src = '/css/javascript/script.js';
+script.src = 'css/javascript/script.js';
 document.body.appendChild(script);
 
 const bootstrap = document.createElement('script');

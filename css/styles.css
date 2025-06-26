@@ -92,8 +92,9 @@ header{
 .carousel-indicators{
     list-style: none;
 }
+
 .img_carr{
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -113,6 +114,7 @@ background-color: #053c56;
     color: #f0f0f0 !important;
     
 }
+
 #carousel-mobile-placeholder {
     width: 100%;
     margin-bottom: 2rem; /* separa del header */

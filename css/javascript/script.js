@@ -143,17 +143,17 @@ document.addEventListener("DOMContentLoaded", () => {
         essential: {
           name: "Essential Portrait",
           price: 75,
-          image: "/img/services/retrato.jpg"
+          image: "img/services/retrato.jpg"
         },
         creative: {
           name: "Creative Portrait",
           price: 120,
-          image: "/img/services/retrato2.jpg"
+          image: "img/services/retrato2.jpg"
         },
         branding: {
           name: "Branding Mini Session",
           price: 150,
-          image: "/img/services/retrato3.jpg"
+          image: "img/services/retrato3.jpg"
         }
       }
     },
@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
         basic: {
           name: "Basic Flyer",
           price: 45,
-          image: "/img/services/flyer.jpg"
+          image: "img/services/flyer.jpg"
         }
       }
     },
@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
         starter: {
           name: "Starter Social Media Kit",
           price: 60,
-          image: "/img/services/social.jpg"
+          image: "img/services/social.jpg"
         }
       }
     }

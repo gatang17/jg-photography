@@ -1,31 +1,31 @@
-// ----------------------------
-// 1. Contenido del <head>
-// ----------------------------
-// 1. Insertar contenido estático (meta, title, bootstrap CSS, y tu CSS) con innerHTML:
-document.head.innerHTML += `
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>J&G Photography</title>
+document.addEventListener('DOMContentLoaded', function () {
+  // 1. Insertar contenido en <head>
+  document.head.innerHTML += `
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&G Photography</title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
 
-  <!-- Tus estilos -->
-  <link rel="stylesheet" href="css/styles.css">
-`;
+    <!-- Tus estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+  `;
 
-// 2. Insertar scripts con createElement para que se ejecuten bien:
-const script = document.createElement('script');
-script.src = 'css/javascript/script.js';
-document.body.appendChild(script);
+  // 2. Insertar scripts
+  const script = document.createElement('script');
+  script.src = 'css/javascript/script.js';
+  document.body.appendChild(script);
 
-const bootstrap = document.createElement('script');
-bootstrap.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js';
-bootstrap.integrity = 'sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz';
-bootstrap.crossOrigin = 'anonymous';
-document.body.appendChild(bootstrap);
+  const bootstrap = document.createElement('script');
+  bootstrap.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js';
+  bootstrap.integrity = 'sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz';
+  bootstrap.crossOrigin = 'anonymous';
+  document.body.appendChild(bootstrap);
+});
+
 
 
 
